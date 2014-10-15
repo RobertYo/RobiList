@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40354CB19E9DE6A0000EC11 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40354CA19E9DE6A0000EC11 /* ListDetailViewController.swift */; };
 		A42D589919E42CEF00C33815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D589819E42CEF00C33815 /* AppDelegate.swift */; };
-		A42D589B19E42CEF00C33815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D589A19E42CEF00C33815 /* ViewController.swift */; };
+		A42D589B19E42CEF00C33815 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D589A19E42CEF00C33815 /* ChecklistViewController.swift */; };
 		A42D589E19E42CEF00C33815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42D589C19E42CEF00C33815 /* Main.storyboard */; };
 		A42D58A019E42CEF00C33815 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A42D589F19E42CEF00C33815 /* Images.xcassets */; };
-		A42D58A319E42CEF00C33815 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A42D58A119E42CEF00C33815 /* LaunchScreen.xib */; };
 		A42D58AF19E42CEF00C33815 /* RobiListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42D58AE19E42CEF00C33815 /* RobiListTests.swift */; };
+		A4B0A8D719E68EA2003EC83D /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0A8D619E68EA2003EC83D /* ItemDetailViewController.swift */; };
+		A4B9E1D819E57337008922BC /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B9E1D719E57337008922BC /* ChecklistItem.swift */; };
+		A4C49ED019E94864003E4F97 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C49ECF19E94864003E4F97 /* AllListsViewController.swift */; };
+		A4C49ED219E9A3DD003E4F97 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C49ED119E9A3DD003E4F97 /* Checklist.swift */; };
+		A4C89DA019ED2084009B8F01 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C89D9F19ED2084009B8F01 /* IconPickerViewController.swift */; };
+		A4F356DA19EBD5790047D933 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F356D919EBD5790047D933 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A40354CA19E9DE6A0000EC11 /* ListDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
 		A42D589319E42CEF00C33815 /* RobiList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobiList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42D589719E42CEF00C33815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42D589819E42CEF00C33815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A42D589A19E42CEF00C33815 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A42D589A19E42CEF00C33815 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ChecklistViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A42D589D19E42CEF00C33815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A42D589F19E42CEF00C33815 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A42D58A219E42CEF00C33815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A42D58A819E42CEF00C33815 /* RobiListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RobiListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A42D58AD19E42CEF00C33815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A42D58AE19E42CEF00C33815 /* RobiListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobiListTests.swift; sourceTree = "<group>"; };
+		A4B0A8D619E68EA2003EC83D /* ItemDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ItemDetailViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A4B9E1D719E57337008922BC /* ChecklistItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		A4C49ECF19E94864003E4F97 /* AllListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
+		A4C49ED119E9A3DD003E4F97 /* Checklist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
+		A4C89D9F19ED2084009B8F01 /* IconPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
+		A4F356D919EBD5790047D933 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +90,16 @@
 			isa = PBXGroup;
 			children = (
 				A42D589819E42CEF00C33815 /* AppDelegate.swift */,
-				A42D589A19E42CEF00C33815 /* ViewController.swift */,
+				A42D589A19E42CEF00C33815 /* ChecklistViewController.swift */,
+				A4B0A8D619E68EA2003EC83D /* ItemDetailViewController.swift */,
+				A4B9E1D719E57337008922BC /* ChecklistItem.swift */,
 				A42D589C19E42CEF00C33815 /* Main.storyboard */,
+				A4C49ECF19E94864003E4F97 /* AllListsViewController.swift */,
+				A40354CA19E9DE6A0000EC11 /* ListDetailViewController.swift */,
+				A4C89D9F19ED2084009B8F01 /* IconPickerViewController.swift */,
+				A4C49ED119E9A3DD003E4F97 /* Checklist.swift */,
+				A4F356D919EBD5790047D933 /* DataModel.swift */,
 				A42D589F19E42CEF00C33815 /* Images.xcassets */,
-				A42D58A119E42CEF00C33815 /* LaunchScreen.xib */,
 				A42D589619E42CEF00C33815 /* Supporting Files */,
 			);
 			path = RobiList;
@@ -193,7 +211,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A42D589E19E42CEF00C33815 /* Main.storyboard in Resources */,
-				A42D58A319E42CEF00C33815 /* LaunchScreen.xib in Resources */,
 				A42D58A019E42CEF00C33815 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +229,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A42D589B19E42CEF00C33815 /* ViewController.swift in Sources */,
+				A4B0A8D719E68EA2003EC83D /* ItemDetailViewController.swift in Sources */,
+				A40354CB19E9DE6A0000EC11 /* ListDetailViewController.swift in Sources */,
+				A42D589B19E42CEF00C33815 /* ChecklistViewController.swift in Sources */,
+				A4C89DA019ED2084009B8F01 /* IconPickerViewController.swift in Sources */,
+				A4C49ED219E9A3DD003E4F97 /* Checklist.swift in Sources */,
+				A4B9E1D819E57337008922BC /* ChecklistItem.swift in Sources */,
+				A4F356DA19EBD5790047D933 /* DataModel.swift in Sources */,
+				A4C49ED019E94864003E4F97 /* AllListsViewController.swift in Sources */,
 				A42D589919E42CEF00C33815 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +266,6 @@
 				A42D589D19E42CEF00C33815 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A42D58A119E42CEF00C33815 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A42D58A219E42CEF00C33815 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,6 +421,7 @@
 				A42D58B419E42CEF00C33815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A42D58B519E42CEF00C33815 /* Build configuration list for PBXNativeTarget "RobiListTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +430,7 @@
 				A42D58B719E42CEF00C33815 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
